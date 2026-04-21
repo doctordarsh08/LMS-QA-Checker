@@ -1,0 +1,26 @@
+# ── Credentials ───────────────────────────────────────────────────────────────
+.env
+*.env
+
+# ── QA output artifacts (committed by the Actions bot, not manually) ──────────
+qa_report_*.csv
+run_log.txt
+
+# ── Screenshots / debug dumps ─────────────────────────────────────────────────
+login_page.png
+debug_report*.json
+debug_lms*.py
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
