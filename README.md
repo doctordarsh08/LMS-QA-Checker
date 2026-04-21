@@ -1,6 +1,6 @@
 # LMS QA Runner
 
-Automated quality-assurance system for online courses hosted on a Saras AI Institute-style LMS. Given a Course ID, it logs in, traverses every activity in the course via browser automation, checks all content components, and produces a structured CSV report — triggered from a web UI or directly from GitHub Actions.
+Automated quality-assurance system for online courses hosted on a Learning Management System (LMS). Given a Course ID, it logs in, traverses every activity in the course via browser automation, checks all content components, and produces a structured CSV report — triggered from a web UI or directly from GitHub Actions.
 
 ---
 
